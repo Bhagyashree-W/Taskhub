@@ -1,0 +1,101 @@
+
+
+html,body{
+    height: 100%;
+    
+
+}
+
+.taskCategoryPage{
+    height: 100%;
+
+        display: flex;
+        flex-direction: row;
+       
+    }
+.tasklistcontent{
+    background-color:white;
+   
+    overflow-y: auto;
+
+
+
+}
+    
+    .taskListNames{
+        height: 4rem;
+        width: 20rem;
+        background-color:#1f7a8c;
+        border-radius: 7px;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        font-size: large;
+        color: white;
+    }
+    .taskListNames button{
+        border: 0px;
+        background-color: transparent;
+    }
+    
+    .tasklist{
+        margin: 10px;
+    }
+    .addtasklistbutton{
+        margin: 10px;
+        border: 0px;
+        height: 4rem;
+        width: 20rem;
+        border-radius: 7px;
+        justify-self: start;
+    }
+    .addtaskbox{
+    
+        width: 20rem;
+    padding: 10px;
+    background-color:rgb(4, 124, 124);
+    border-radius: 7px;
+    
+    }
+    .addtaskbox button{
+        border-radius: 7px;
+        border: 0px;
+        background-color: rgb(106, 206, 206);
+    }
+    .addtaskbox button:hover{
+        background-color: rgb(184, 243, 243);
+    }
+    
+    .taskbox{
+        border: 0px;
+        border-radius:9px ;
+        background-color: white;
+        padding: 10px;
+        margin:5px 0px 0px 0px;
+    }
+    .taskdetail{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .addtasklistbutton:hover {
+        transform: translateY(-1px);
+        background-color: rgb(89, 177, 177);
+        color: white;
+      }
+    .addtasklistbutton:hover>svg{
+        filter: invert(1);
+        color: white;
+        
+     
+    } 
+    
+    
+      
+      .addtasklistbutton:active {
+        background-color: rgb(89, 177, 177);
+        border-color: rgba(0, 0, 0, 0.15);
+        box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+        color: rgba(0, 0, 0, 0.65);
+        transform: translateY(0);
+      }

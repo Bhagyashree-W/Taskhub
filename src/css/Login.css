@@ -1,0 +1,46 @@
+.loginput{
+    width:330px ;
+    margin: 15px;
+    padding: 10px;
+}
+
+
+.Login{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    /* background-color: #27b6ba; */
+    height: 100%;
+    width: 100%;
+}
+
+.loginImg img{
+    height: 500px;
+}
+.logbutton{
+width:335px ;
+margin:13px;
+background-color: #27b6ba;
+    margin-top: 25px;
+    border: 0px;
+}
+.logform{
+    height: 500px;
+
+}
+.loginLink{
+    margin-top: 20px;
+    color: #27b6ba;
+}
+.loginLink Link{
+ text-decoration: none;
+    color: #27b6ba;
+}
+
+.is-invalid {
+    margin-top: 500px; /* Adjust this value to change the margin */
+  }
+
+.signupModal{
+    margin:10px;
+}

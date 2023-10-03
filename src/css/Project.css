@@ -1,0 +1,66 @@
+.project {
+  background-color: rgb(228, 228, 228);
+}
+
+.projectBox {
+  margin: 2rem;
+  display: grid;
+}
+
+.projectCard {
+  margin: 0.5rem;
+  height: 10rem;
+  width: 13rem;
+  background-color: white;
+  border-radius: 7px;
+  border: 0px solid;
+  color: rgb(59, 66, 66);
+}
+.projectCard:hover,
+.projectCard:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.projectCard:hover {
+  transform: translateY(-1px);
+}
+
+.projectCard:active {
+  background-color: #f0f0f1;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(0);
+}
+
+.AddprojectCard {
+  margin: 0.5rem;
+  height: 10rem;
+  width: 13rem;
+  background-color: white;
+  border-radius: 7px;
+  border: 0px solid;
+  color: rgb(89, 177, 177);
+}
+
+.AddprojectCard:hover,
+.addbutton path:hover {
+  background-color: #38b1b3;
+  /* stroke: #f0f0f1;
+  color: white; */
+}
+
+.addbutton path {
+  stroke: rgb(89, 177, 177);
+}
+.addbutton path:hover {
+  stroke: white;
+}
+
+
+
+.AddprojectCard:hover > svg{
+  filter: invert(1);
+}

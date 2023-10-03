@@ -1,0 +1,23 @@
+.wrapper{
+    display: grid;
+    grid-template-columns: 75px 1fr;
+    grid-template-rows: 8vh 1fr;
+    height: 100%;
+    width: 100%;
+}
+
+.mainpage{
+   
+    grid-column: 2/3;
+    grid-row: 2/3;
+   
+    
+}
+.maincontent{
+    background-color:#f7f8f9;
+    border-top-left-radius:30px ;
+    height:91%;
+    width: 100%;
+    padding: 30px;
+}
+

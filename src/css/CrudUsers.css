@@ -1,0 +1,104 @@
+.UsersPage {
+  border: 0px black solid;
+  border-top-left-radius: 30px;
+  background-color: rgb(228, 228, 228);
+  padding: 20px;
+  height: 100%;
+}
+
+.Usertable {
+  margin: 0 auto;
+  position: relative;
+  width: 70%;
+}
+
+.Usertable {
+  border-collapse: separate;
+  border-spacing: 0 5px;
+  width: 70%;
+}
+
+.Usertable tbody tr {
+  background-color: white;
+}
+
+.Usertable td,
+.Usertable th {
+  padding: 5px;
+
+  border-bottom: 1px solid #ccc; /* Add a bottom border to separate rows */
+}
+
+.button {
+  background-color: transparent;
+  border: 0px;
+}
+
+
+.login-box {
+  background: #fff;
+  width: 300px;
+  height: 400px;
+  box-shadow: 5px 5px 5px 1px rgba(0,0,0,0.1);
+  text-align: center;
+  padding: 20px;
+}
+
+.form-container {
+display: flex;
+flex-direction: column;
+}
+
+.form-container .input-addon {
+margin-top: 1.5rem;
+}
+
+.form-element {
+margin-top: 0.8rem;
+height: 2.5rem;
+border: 1px solid #d2d6de;
+border-radius: 7px;
+padding: 5px;
+font-size: .9rem;
+}
+
+.form-element:focus {
+outline: 1px solid rgb(89, 177, 177);
+}
+
+.form-element::placeholder {
+font-family: 'Raleway', sans-serif;
+font-size: .8rem;
+}
+
+.form-element.is-submit {
+height: 3rem;
+font-size: 1rem;
+line-height: normal;
+font-family: 'Raleway', sans-serif;
+
+color: #fff;
+}
+
+.input-addon {
+display: flex;
+justify-content: space-between;
+
+}
+
+.input-addon > .form-element {
+margin-top: 0;
+}
+
+.input-field {
+flex: 1;
+}
+
+.input-addon-item {
+padding: 5px;
+width: 60px;
+border: 1px solid #d2d6de;
+border-left: 0;
+background: #fff;
+color: #6a6b6d;
+}

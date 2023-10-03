@@ -1,0 +1,60 @@
+.sidenav {
+
+    grid-row: 2/3;
+    height: 100%; 
+ 
+    overflow-y: auto; 
+    top: 8vh;
+    left: 0;
+    /* width: 75px; 
+    position: fixed;
+     top: 8vh;
+    left: 0;
+    background-color:white;
+    overflow-x: hidden; 
+    padding-top: 0px;
+   z-index: 1; */
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
+  
+  
+  .sidenav a :hover {
+    color: #f1f1f1;
+  }
+  
+ 
+  .main {
+    margin-left: 160px; 
+    padding: 0px 10px;
+  }
+  
+  
+  @media screen  {
+    .sidenav {padding-top: 0px;}
+    .sidenav a {font-size: 18px;}
+  }
+  .taskButton{
+    background-color:rgb(89, 177, 177);
+    border: 0px;
+    border-radius: 6px;
+    color: white;
+  }
+  .taskButton:hover{
+    background-color: #1f7a8c;
+  }
+  .taskButton:active {
+    background-color: #1f7a8c;
+    transform: translateY(3px);
+  }
+  
+.taskpageIcons::after{
+  border: 2px solid black;
+}

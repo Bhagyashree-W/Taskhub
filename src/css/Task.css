@@ -1,0 +1,167 @@
+.mytaskpage {
+  display: grid;
+  
+  grid-template-columns: 75px 1fr;
+  grid-template-rows: 8vh 1fr;
+}
+
+.MytaskSection {
+    grid-column: 2/3;
+    grid-row: 2/3;
+ border-top-left-radius: 30px;
+  height: 91%;
+  /* background-color: gray; */
+  
+}
+.taskPage{
+  display: grid;
+  grid-template-columns: 13rem 4fr;
+}
+
+.maincontentT{
+  
+    border-top-left-radius:30px ;
+    height: 100%;
+    width: 100%;
+   
+
+}
+.taskGrpCard{
+  background-color:#f7f8f9; 
+  border-top-left-radius:30px ;
+  height: 100%;
+  width: 100%;
+  border: 0px;
+display:inline;
+  padding: 30px;
+}
+
+
+.taskCard{
+border: 0px;
+border-radius: 10px;
+  width: 95%;
+  margin:auto ;
+  margin-top: 10px;
+}
+.taskCard:hover{
+  background-color:#eef0f2 ;
+}
+
+.taskFilter{
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+}
+.taskdetail{
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+  position: absolute;
+  top:20%;
+  padding:auto;
+}
+
+.taskdetail select{
+  border: 0px 0px 1px 0px;
+}
+.taskdel{
+  background-color:rgb(188, 101, 94);
+    border: 0px;
+    border-radius: 6px;
+    padding: 5px 10px 5px 10px;
+  }
+
+  .taskdel:hover{
+    background-color: rgb(116, 58, 54);
+  }
+  .taskdel:active {
+    background-color:  rgb(116, 58, 54);
+    transform: translateY(3px);
+  }
+.offcanvasfooter{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  
+}
+.checkbox {
+  position: relative;
+  overflow: hidden;
+}
+
+.checkbox__input {
+  position: absolute;
+  top: -100px;
+  left: -100px;
+}
+ 
+.checkbox__inner {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 1px solid #626262;
+  background: transparent no-repeat center;
+}
+
+.checkbox__input:checked + .checkbox__inner {
+  border-color: #52C6C4;
+  background-color: #52C6C4;
+  background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='14px' height='10px' viewBox='0 0 14 10' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3C!-- Generator: Sketch 59.1 (86144) - https://sketch.com --%3E%3Ctitle%3Echeck%3C/title%3E%3Cdesc%3ECreated with Sketch.%3C/desc%3E%3Cg id='Page-1' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='ios_modification' transform='translate(-27.000000, -191.000000)' fill='%23FFFFFF' fill-rule='nonzero'%3E%3Cg id='Group-Copy' transform='translate(0.000000, 164.000000)'%3E%3Cg id='ic-check-18px' transform='translate(25.000000, 23.000000)'%3E%3Cpolygon id='check' points='6.61 11.89 3.5 8.78 2.44 9.84 6.61 14 15.56 5.05 14.5 4'%3E%3C/polygon%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  background-size: 14px 10px;
+}
+
+
+.taskname{
+  display:flex;
+  flex-direction: row;
+  gap:10px;
+}
+
+
+.addbtn{
+  border: 0px;
+border-radius: 10px;
+  width: 95%;
+  margin:auto ;
+  margin-top: 10px;
+ 
+}
+
+.input-wrapper {
+  position: relative;
+  display: inline-block;
+  
+}
+
+.search-input {
+   margin: 8px;
+  padding-left: 30px; /* Adjust the padding to make space for the icon */
+  width: 100%;
+  border: 0.2 #52C6C4 solid;
+  border-radius: 7px;
+}
+
+.search-icon {
+  position: absolute;
+  top: 50%;
+  left: 10px; /* Adjust the left position as needed */
+  transform: translateY(-50%);
+}
+
+/* Style for the inline SVG */
+.search-icon svg {
+  fill: #3d3d3d; /* Adjust the fill color as needed */
+  width: 24px; /* Adjust the size of the icon as needed */
+}
+
+.sort{
+  float: right;
+  right: 1rem;
+ 
+}
+
+
+

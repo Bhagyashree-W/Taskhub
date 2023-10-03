@@ -1,0 +1,46 @@
+
+
+.Todo{
+
+    border: 0px black solid;
+    border-top-left-radius: 30px;
+    background-color: rgb(228, 228, 228);
+  
+    /* max-width: 100%; */
+    /* height: 100dvh; */
+ 
+}
+
+.taskCard{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+    border: 2px solid black;
+}
+.card div button{
+    background-color: transparent;
+    border:0px ;
+}
+
+.cardtodo{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  margin: 5px auto;
+  
+  border-radius: 7px;
+  background-color: white;
+}
+.taskCardTable{
+    align-items: center;
+}
+.addnewtask{
+    border: 0px;
+    background-color: transparent;
+    color: rgb(106, 206, 206);
+}
+.addnewtask:hover{
+    color:  rgb(67, 91, 91);
+}

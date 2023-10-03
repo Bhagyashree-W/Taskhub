@@ -1,0 +1,73 @@
+/* Assuming your navigation bar container has the class .navbar */
+.navbar {
+    grid-column:1/3;
+    
+    height: 100%;
+    width: 100%;
+    background-color: #1d222b;
+    position: sticky;
+  /* position: fixed; */
+    /* background-color: #030406;
+    padding-left: 18px;
+    color:white;
+    z-index:1;
+    width: 100%;
+  
+    margin-top: 0%; */
+    color: white;
+    
+  }
+  
+  /* Style the image container */
+  .navbar .image-container {
+    max-width: 100%; 
+    text-align: right;
+    padding-right: 18px;
+  
+  }
+
+ 
+  .navbar .image-container img {
+    max-width: 100%;
+    height: 5vh; 
+  }
+
+ .dropbtn {
+  
+background-color: transparent;
+border: 0px;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+ 
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 2;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .dropdown-menu show{
+    padding-right: 20px;
+  }
+  
+ 

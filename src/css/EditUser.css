@@ -1,0 +1,9 @@
+.editpage{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+.editbox{
+    grid-column: 2/3;
+    text-align: center; 
+}
